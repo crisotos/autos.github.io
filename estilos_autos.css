@@ -1,0 +1,136 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+	background-image: url("4683.jpg");
+}
+
+#cabecera {
+width: 1000px;
+margin: 5px auto;
+padding: 5px;
+text-align: center;
+border: 5px solid #441F05;
+}
+
+#imagen1 {
+	/*background: pink;*/
+	width: 20%;
+	margin:5px auto;
+}
+
+#titulos {
+	/*background: blue;*/
+	width: 55%;
+	padding: 20px 0px;
+	}
+
+#imagen2 {
+	/*background: green;*/
+	width: 20%;
+	margin:5px auto;
+	text-align: left;
+	/*border-radius: 50px;*/
+}
+
+#imagen1, #titulos, #imagen2 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#titulo1 {
+font: 60px Monotype Corsiva;
+color: red;
+}
+
+#titulo2 {
+font: 30px Ravie;
+color: Blue;
+}
+
+#linea {
+	width: 960px;
+	margin: 5px auto;
+	border: 5px dashed red;
+}
+
+/* Aqui empieza el nav*/
+#menu {
+width: 960px;
+margin: 10px auto;
+padding: 5px;
+text-align: center;
+/*border: 2px solid red;*/
+}
+
+#menu li {
+margin: 10px;
+display:inline-block;
+padding: 10px;
+font-size: 26px;
+/*border: 2px solid red;*/
+}
+
+/* Aqui empieza el section del index*/
+#principal{
+	width: 1000px;
+	margin: 5px auto;	
+	text-align: center;
+}
+
+#texto_inicio {
+	width: 960px;
+	margin: 5px auto;
+	font: 40px Segoe Print;
+	text-align: center;
+}
+
+/* Aqui empieza el section de cada pagina de autos*/
+
+#principal_autos{
+	width: 960px;
+	margin: 5px auto;
+	border: 2px solid #000000;	
+}
+
+#imagen3 {
+	width: 45%;
+	margin: 5px auto;
+	padding: 15px;
+}
+
+#historia {
+	width: 45%;
+	margin: 5px auto;
+	font-size: 20px;
+	text-align: justify;
+}
+
+#imagen3, #historia {
+	display:inline-block;
+	vertical-align: top;
+}
+
+/* Aqui empieza el section de pagina Videos*/
+
+#video1, #video2, #video3, #video4 {
+	display:inline-block;
+	vertical-align: top;
+}
+
+#video5 {
+	/*border: 2px solid blue;*/
+	text-align: center;
+}
+
+.titulos_videos {
+	font: 24px Segoe Print;
+	color: #8F3D15;
+}
+
+#texto_clip {
+	text-align: center;
+	font-size: 24px;
+}
